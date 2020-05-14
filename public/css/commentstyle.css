@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Paaji+2|Caveat|Courgette&display=swap');
+
+.main{
+	background-color:#d3d3d3;
+}
+.comment-section{
+	padding:20px;
+	text-align:center;
+}
+
+.field{
+	border:2px solid rgba(0,0,0,0);
+	background-color:rgba(230,230,230,0.6);
+	margin-bottom:15px;
+	padding:10px;
+	font-family: 'Caveat', cursive;
+}
+
+.field:hover{
+	background-color:rgba(0,0,0,0.2);
+}
+
+.other-comments{
+	margin:10px;
+	padding:10px;
+}
+.wrapper{
+	display:flex;
+	border:1px solid #d3d3d3;
+	margin:15px;
+	border-radius:15px;
+}
+
+.wrapper .left{
+	width:10%;
+	padding:10px 10px;
+	text-align:center;
+	color:#fff;
+}
+
+
+
+.wrapper .left img:hover{
+	cursor: pointer;
+}
+
+.wrapper .right{
+	width:60%;
+	background:#fff;
+	padding:10px 10px;
+}
+
+.wrapper .right h6{
+	color:#b2b2b2;
+	font-family: 'Courgette', cursive;
+
+}
+.wrapper .right p{
+	font-family: 'Baloo Paaji 2', cursive;
+}
